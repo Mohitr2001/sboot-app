@@ -9,7 +9,10 @@ env:
 
 
 
-  test:
+ 
+
+jobs:
+ test:
 
     runs-on: ubuntu-22.04
 
@@ -26,8 +29,6 @@ env:
 
       - name: Another step
         run: echo "This is another step in the same job"
-
-jobs:
 
   build:
 
