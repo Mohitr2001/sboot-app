@@ -28,7 +28,7 @@ jobs:
     strategy:
       matrix:
         browser: [chrome, firefox]
-        device: [desktop, mobile]
+        device: [desktop, mobile,ipad]
 
     runs-on: ubuntu-22.04
 
